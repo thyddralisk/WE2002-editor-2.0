@@ -1,0 +1,1280 @@
+﻿Compilazione avviata 09/05/2015 00:44:42.
+     1>Progetto "D:\System\Dropbox\MyIdeas\Prodotti\MyCode\myWE2k2 Editor\ed-eng2\ed.vcxproj" sul nodo 2 (destinazioni: rebuild).
+     1>InitializeBuildStatus:
+         Creazione di ".\Release\ed.unsuccessfulbuild". È stato specificato "AlwaysCreate".
+       Midl:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D NDEBUG /mktyplib203 /W1 /nologo /char signed /env win32 /tlb ".\Release/ed.tlb" ed.odl 
+         Processing .\ed.odl
+         ed.odl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Release/ed.pch" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release/ed.pch" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /errorReport:prompt carattDlg.cpp ed.cpp edDlg.cpp editOptForm.cpp giocatore.cpp graf.cpp myiotxt.cpp selezDlg.cpp squadra.cpp squadra_ml.cpp tattDlg.cpp tattica.cpp
+         carattDlg.cpp
+     1>carattDlg.cpp(144): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(146): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(148): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(150): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(153): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(155): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(157): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(159): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(161): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(163): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(165): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(167): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(169): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(171): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(173): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(175): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(177): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(179): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(181): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(183): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>carattDlg.cpp(301): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+         ed.cpp
+     1>ed.cpp(61): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxwin.h(5383): vedere la dichiarazione di 'CWinApp::Enable3dControlsStatic'
+     1>ed.cpp(80): warning C4244: 'inizializzazione': conversione da 'INT_PTR' a 'int'. Possibile perdita di dati.
+         edDlg.cpp
+     1>edDlg.cpp(80): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+     1>edDlg.cpp(88): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+     1>edDlg.cpp(1344): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(1345): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1346): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1347): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1348): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1353): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(1354): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1355): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1356): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1357): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1362): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(1363): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1364): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1365): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1366): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1566): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>edDlg.cpp(1608): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1616): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1661): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1669): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1676): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1682): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1689): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1695): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1703): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1709): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1716): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1725): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1728): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1731): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1740): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1747): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1754): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1760): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1768): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1774): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1781): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1787): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1794): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1800): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1807): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1820): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(1823): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1906): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1912): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(1918): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2044): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2048): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2049): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2057): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2061): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2066): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2070): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2075): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2079): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2088): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2092): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2097): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2101): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2106): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2136): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2371): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2372): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2373): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2374): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2378): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2379): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2380): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2381): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2385): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2386): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2387): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2388): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2392): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2393): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2394): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2395): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2399): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2400): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2401): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2402): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2406): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2407): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2408): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2409): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2413): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2414): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2415): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2416): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2420): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2421): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2422): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2423): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2467): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2469): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2471): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2473): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2475): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2492): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2494): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2496): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2498): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2500): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2502): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2504): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2506): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2508): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2510): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2513): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2515): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2517): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2519): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2521): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2523): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2525): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2527): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2529): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2531): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2599): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2601): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2603): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2605): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2607): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2609): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2611): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2613): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2615): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2617): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2619): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2621): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2623): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2625): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2627): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2629): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2631): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2633): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2635): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2637): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2639): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2641): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2643): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2667): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2668): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2669): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2670): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2673): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2674): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(2675): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2676): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>edDlg.cpp(2680): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2682): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2684): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2686): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2688): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2703): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2705): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2707): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2709): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2711): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2713): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2715): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2717): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2719): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2721): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2724): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2726): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2728): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2730): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2732): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2734): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2736): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2738): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2740): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2742): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2877): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2879): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2881): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2883): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2885): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2887): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2889): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2891): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2893): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2895): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2897): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2899): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2901): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2903): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2905): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2907): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2909): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2911): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2913): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2915): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2917): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2919): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(2921): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3006): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3008): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3010): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3012): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3014): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3016): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3018): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3020): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3022): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3024): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3027): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3029): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3031): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3033): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3035): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3037): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3039): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3041): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3043): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3045): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3170): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3172): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3174): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3176): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3178): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3180): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3182): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3184): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3186): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3188): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3190): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3192): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3194): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3196): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3198): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3200): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3202): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3204): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3206): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3208): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3210): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3212): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3214): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3650): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3663): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3676): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3689): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3702): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3715): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3728): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3741): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3754): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3767): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3780): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3793): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3806): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3819): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3832): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3845): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3858): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3871): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3884): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3897): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3910): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3923): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3936): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(3949): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3955): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3978): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(3984): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4007): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4013): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4036): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4042): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4065): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4071): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4094): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4100): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4123): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4129): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4152): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4158): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4181): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4187): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4210): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4216): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4239): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4245): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4268): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4274): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4297): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4303): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4326): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4332): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4355): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4361): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4384): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4390): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4413): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4419): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4442): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4448): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4471): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4477): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4500): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4506): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>edDlg.cpp(4651): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4654): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4658): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4662): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4666): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4670): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4674): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4675): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4676): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4686): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4694): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4700): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4703): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4707): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4711): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4715): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4719): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4723): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4724): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4725): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4735): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4743): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4747): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4751): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(4936): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>edDlg.cpp(6337): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6339): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6349): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6351): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6361): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6363): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6373): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6375): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6385): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6387): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6397): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6399): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6409): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6411): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6421): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6423): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6433): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6435): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6445): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6447): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6457): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6467): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6621): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(6623): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(7479): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>edDlg.cpp(7533): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>edDlg.cpp(7935): warning C4101: 'k': variabile locale senza riferimenti
+     1>edDlg.cpp(7971): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(8003): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(8050): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(8084): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(8116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(8163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(8293): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>edDlg.cpp(8367): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>edDlg.cpp(8414): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>edDlg.cpp(8416): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::erase': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::erase': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_val<_Traits>::_Myval': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_iterator<_Mytree>::_Tree_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_iterator<_Mytree>::_Tree_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::erase': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::erase': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_const_iterator<_Mytree>::_Tree_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_const_iterator<_Mytree>::_Tree_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_unchecked_const_iterator<_Mytree,_Base>::_Tree_unchecked_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>,
+                     _Base=std::_Iterator_base
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_unchecked_const_iterator<_Mytree,_Base>::_Tree_unchecked_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>,
+                     _Base=std::_Iterator_base
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Linsert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Linsert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_val<_Traits>::_Buynode': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::pair<_Ty1,_Ty2>::pair': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::pair<_Ty1,_Ty2>::pair': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+         editOptForm.cpp
+         giocatore.cpp
+     1>giocatore.cpp(221): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>giocatore.cpp(222): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>giocatore.cpp(365): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>giocatore.cpp(376): warning C4267: 'inizializzazione': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>giocatore.cpp(414): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>giocatore.cpp(419): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_val<_Traits>::_Myval': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_iterator<_Mytree>::_Tree_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_iterator<_Mytree>::_Tree_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_const_iterator<_Mytree>::_Tree_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_const_iterator<_Mytree>::_Tree_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_unchecked_const_iterator<_Mytree,_Base>::_Tree_unchecked_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>,
+                     _Base=std::_Iterator_base
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_unchecked_const_iterator<_Mytree,_Base>::_Tree_unchecked_const_iterator': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Mytree=std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>,
+                     _Base=std::_Iterator_base
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Linsert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Linsert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree<_Traits>::_Insert': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Tree_val<_Traits>::_Buynode': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Traits=std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::pair<_Ty1,_Ty2>::pair': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::pair<_Ty1,_Ty2>::pair': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::vector<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::vector<std::string>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(142): warning C4503: 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base': lunghezza nome decorato superata. Nome troncato.
+                 with
+                 [
+                     _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<std::string,std::map<std::string,std::map<std::string,int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::map<std::string,std::map<std::string,int>>>>,false>>>,
+                     _Ty2=bool
+                 ]
+         graf.cpp
+     1>graf.cpp(318): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>graf.cpp(320): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(322): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(324): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(326): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(328): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(330): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(332): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(334): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(336): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(338): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(340): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(342): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(344): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(346): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(348): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(351): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(353): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(355): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(357): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(359): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(361): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(363): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(365): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(367): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(369): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(371): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(373): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(375): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(377): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(380): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(382): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(384): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(386): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(388): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(390): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(392): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(394): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(396): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(398): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(400): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(402): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(404): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(406): warning C4996: '_ultoa': This function or variable may be unsafe. Consider using _ultoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(524): vedere la dichiarazione di '_ultoa'
+     1>graf.cpp(608): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>graf.cpp(646): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>graf.cpp(684): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>graf.cpp(725): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+         myiotxt.cpp
+     1>myiotxt.cpp(8): fatal error C1083: Impossibile aprire il file inclusione 'curl/curl.h': No such file or directory
+         selezDlg.cpp
+     1>selezDlg.cpp(429): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>selezDlg.cpp(430): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(431): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(432): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(433): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(438): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>selezDlg.cpp(439): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(440): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(441): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(442): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(474): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(478): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>selezDlg.cpp(478): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+     1>selezDlg.cpp(481): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(482): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(467): warning C4101: 'n': variabile locale senza riferimenti
+     1>selezDlg.cpp(506): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>selezDlg.cpp(507): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(508): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(509): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>selezDlg.cpp(510): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(511): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(512): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(513): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110): vedere la dichiarazione di 'strcat'
+     1>selezDlg.cpp(564): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(579): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(597): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(612): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(630): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(645): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(664): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>selezDlg.cpp(679): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+         squadra.cpp
+         squadra_ml.cpp
+         tattDlg.cpp
+     1>tattDlg.cpp(260): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(262): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(264): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(266): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(268): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(270): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(272): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(274): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(276): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(278): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(281): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(283): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(285): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(287): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(289): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(291): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(293): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(295): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(297): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(299): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(369): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): vedere la dichiarazione di 'strcpy'
+     1>tattDlg.cpp(491): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(497): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(513): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(519): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451): vedere la dichiarazione di '_itoa'
+     1>tattDlg.cpp(686): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+     1>tattDlg.cpp(722): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(791): vedere la dichiarazione di '_splitpath'
+         tattica.cpp
+         Generating Code...
+     1>Compilazione progetto "D:\System\Dropbox\MyIdeas\Prodotti\MyCode\myWE2k2 Editor\ed-eng2\ed.vcxproj" (destinazioni: rebuild) NON COMPLETATA.
+
+Compilazione NON RIUSCITA.
+
+Tempo trascorso 00:01:18.42
